@@ -1,0 +1,42 @@
+:root {
+
+    --color-primario: #1a365d;
+    --color-secundario: #2b6cb0;
+    --color-fondo: #f4f7f6;
+    --color-texto: #333333;
+    --color-blanco: #ffffff;
+    
+    --fuente-principal: 'Segoe UI', system-ui, sans-serif;
+    --espaciado-base: 16px; 
+    --sombra-tarjeta: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --borde-radio: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente-principal);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    padding: 2rem 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
